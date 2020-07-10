@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+	</head>
+	<body>
+		<!-- script标签的type必须是浏览器不认识的值 -->
+		<script id="worker" type="app/worker">
+			console.log('主线程页面内的worker');
+		</script>
+		<script src="./index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
